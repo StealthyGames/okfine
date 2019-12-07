@@ -1,0 +1,195 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Dirt Autotile and Sky/Sky.png" type="Texture" id=2]
+[ext_resource path="res://JungleTileDirtSet.tres" type="TileSet" id=3]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=4]
+
+[node name="World2" type="Node"]
+
+[node name="undermap" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="WorldComplete2" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -688.201, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete3" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -627.813, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete4" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -576, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete5" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -512, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete6" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -448, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete7" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -384, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete8" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -318.397, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete9" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -258.009, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete10" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -192, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete11" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -128, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete12" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( -64, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete13" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 0, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete14" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 64, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete15" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 128, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete16" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 256, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete18" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 320, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete19" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 384, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete20" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 448, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete21" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 576, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete23" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 704, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete24" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 640, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete22" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 512, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete17" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 192, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete25" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 320, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete26" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 448, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete27" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 576, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete28" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 704, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete29" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 832, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete30" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 960, 636.588 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete31" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 1088, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete32" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 1280, 640 )
+next_world = "res://World.tscn"
+
+[node name="WorldComplete33" parent="undermap" instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 1184, 640 )
+next_world = "res://World.tscn"
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Sky" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 346.477, 103.173 )
+scale = Vector2( 1.45014, 1.05886 )
+texture = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( -851970, 0, 0, -851969, 1, 0, -917504, 2, 0, -786434, 6, 0, -786433, 5, 0, -851968, 4, 0, -851964, 0, 0, -851963, 2, 0, -786428, 6, 0, -786427, 4, 0, -786417, 0, 0, -786416, 1, 0, -786415, 1, 0, -786414, 1, 0, -786413, 1, 0, -786412, 1, 0, -786411, 1, 0, -786410, 2, 0, -655368, 0, 0, -655367, 1, 0, -655366, 2, 0, -720888, 0, 0, -720887, 1, 0, -720886, 1, 0, -720885, 1, 0, -720884, 1, 0, -720883, 1, 0, -720882, 1, 0, -720881, 8, 0, -720880, 8, 0, -720879, 8, 0, -720878, 8, 0, -720877, 8, 0, -720876, 8, 0, -720875, 8, 0, -720874, 3, 0, -589832, 6, 0, -589831, 5, 0, -589830, 4, 0, -655352, 6, 0, -655351, 5, 0, -655350, 5, 0, -655349, 5, 0, -655348, 5, 0, -655347, 5, 0, -655346, 5, 0, -655345, 8, 0, -655344, 8, 0, -655343, 8, 0, -655342, 8, 0, -655341, 8, 0, -655340, 8, 0, -655339, 8, 0, -655338, 3, 0, -524291, 0, 0, -524290, 1, 0, -524289, 2, 0, -589809, 6, 0, -589808, 5, 0, -589807, 5, 0, -589806, 5, 0, -589805, 5, 0, -589804, 5, 0, -589803, 5, 0, -589802, 4, 0, -458755, 6, 0, -458754, 5, 0, -458753, 4, 0, -458750, 0, 0, -458749, 1, 0, -458748, 1, 0, -458747, 2, 0, -393214, 6, 0, -393213, 5, 0, -393212, 5, 0, -393211, 4, 0, -262135, 0, 0, -262134, 1, 0, -262133, 1, 0, -262132, 1, 0, -262131, 1, 0, -262130, 2, 0, -196599, 6, 0, -196598, 5, 0, -196597, 5, 0, -196596, 5, 0, -196595, 5, 0, -196594, 4, 0, -131070, 0, 0, -131069, 1, 0, -131068, 1, 0, -131067, 2, 0, -65534, 6, 0, -65533, 5, 0, -65532, 5, 0, -65531, 4, 0, 65543, 0, 0, 65544, 1, 0, 65545, 1, 0, 65546, 2, 0, 131079, 6, 0, 131080, 5, 0, 131081, 5, 0, 131082, 4, 0, 196622, 0, 0, 196623, 1, 0, 196624, 1, 0, 196625, 2, 0, 262158, 7, 0, 262159, 8, 0, 262160, 8, 0, 262161, 3, 0, 327694, 7, 0, 327695, 8, 0, 327696, 8, 0, 327697, 3, 0, 393227, 0, 0, 393228, 1, 0, 393229, 1, 0, 393230, 8, 0, 393231, 8, 0, 393232, 8, 0, 393233, 3, 0, 458762, 0, 0, 458763, 8, 0, 458764, 8, 0, 458765, 8, 0, 458766, 8, 0, 458767, 8, 0, 458768, 8, 0, 458769, 3, 0, 524290, 0, 0, 524291, 1, 0, 524292, 1, 0, 524293, 1, 0, 524294, 1, 0, 524295, 1, 0, 524296, 1, 0, 524297, 1, 0, 524298, 8, 0, 524299, 8, 0, 524300, 8, 0, 524301, 8, 0, 524302, 8, 0, 524303, 8, 0, 524304, 8, 0, 524305, 3, 0, 589826, 7, 0, 589827, 8, 0, 589828, 8, 0, 589829, 8, 0, 589830, 8, 0, 589831, 8, 0, 589832, 8, 0, 589833, 8, 0, 589834, 8, 0, 589835, 8, 0, 589836, 8, 0, 589837, 8, 0, 589838, 8, 0, 589839, 8, 0, 589840, 8, 0, 589841, 3, 0, 655362, 7, 0, 655363, 8, 0, 655364, 8, 0, 655365, 8, 0, 655366, 8, 0, 655367, 8, 0, 655368, 8, 0, 655369, 8, 0, 655370, 8, 0, 655371, 8, 0, 655372, 8, 0, 655373, 8, 0, 655374, 8, 0, 655375, 8, 0, 655376, 8, 0, 655377, 3, 0, 720898, 7, 0, 720899, 8, 0, 720900, 8, 0, 720901, 8, 0, 720902, 8, 0, 720903, 8, 0, 720904, 8, 0, 720905, 8, 0, 720906, 8, 0, 720907, 8, 0, 720908, 8, 0, 720909, 8, 0, 720910, 8, 0, 720911, 8, 0, 720912, 8, 0, 720913, 3, 0, 786434, 7, 0, 786435, 8, 0, 786436, 8, 0, 786437, 8, 0, 786438, 8, 0, 786439, 8, 0, 786440, 8, 0, 786441, 8, 0, 786442, 8, 0, 786443, 8, 0, 786444, 8, 0, 786445, 8, 0, 786446, 8, 0, 786447, 8, 0, 786448, 8, 0, 786449, 3, 0, 851970, 7, 0, 851971, 8, 0, 851972, 8, 0, 851973, 8, 0, 851974, 8, 0, 851975, 8, 0, 851976, 8, 0, 851977, 8, 0, 851978, 8, 0, 851979, 8, 0, 851980, 8, 0, 851981, 8, 0, 851982, 8, 0, 851983, 8, 0, 851984, 8, 0, 851985, 3, 0 )
+
+[node name="WorldComplete" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, -384 )
+scale = Vector2( 0.6, 0.6 )
+next_world = "res://World3.tscn"
+
+[node name="Player" parent="." instance=ExtResource( 4 )]
+position = Vector2( 128, 224 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true

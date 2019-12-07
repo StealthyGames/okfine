@@ -1,0 +1,422 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=1]
+[ext_resource path="res://JungleTiles.tres" type="TileSet" id=2]
+[ext_resource path="res://Dirt Autotile and Sky/Sky.png" type="Texture" id=3]
+[ext_resource path="res://Enemy.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=5]
+
+[node name="World" type="Node"]
+
+[node name="undermap" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="WorldComplete2" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -417.386, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete2"]
+
+[node name="WorldComplete3" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -417.386, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete3"]
+
+[node name="WorldComplete4" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -352, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete4"]
+
+[node name="WorldComplete5" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -288, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete5"]
+
+[node name="WorldComplete6" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -224, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete6"]
+
+[node name="WorldComplete7" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -160, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete7"]
+
+[node name="WorldComplete8" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -96, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete8"]
+
+[node name="WorldComplete9" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -32, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete9"]
+
+[node name="WorldComplete10" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 32, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete10"]
+
+[node name="WorldComplete11" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 96, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete11"]
+
+[node name="WorldComplete12" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 160, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete12"]
+
+[node name="WorldComplete13" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 224, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete13"]
+
+[node name="WorldComplete14" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 288, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete14"]
+
+[node name="WorldComplete15" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 352, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete15"]
+
+[node name="WorldComplete16" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 416, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete16"]
+
+[node name="WorldComplete17" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 480, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete17"]
+
+[node name="WorldComplete18" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 544.883, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete18"]
+
+[node name="WorldComplete19" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 608, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete19"]
+
+[node name="WorldComplete20" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 672, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete20"]
+
+[node name="WorldComplete21" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 736, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete21"]
+
+[node name="WorldComplete22" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 800, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete22"]
+
+[node name="WorldComplete23" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 864, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete23"]
+
+[node name="WorldComplete24" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 928, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete24"]
+
+[node name="WorldComplete25" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 992, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete25"]
+
+[node name="WorldComplete26" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1056, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete26"]
+
+[node name="WorldComplete27" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1120, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete27"]
+
+[node name="WorldComplete28" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1184, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete28"]
+
+[node name="WorldComplete29" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1248, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete29"]
+
+[node name="WorldComplete30" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1312, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete30"]
+
+[node name="WorldComplete31" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1376, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete31"]
+
+[node name="WorldComplete32" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1440, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete32"]
+
+[node name="WorldComplete33" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1504, 948.293 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete33"]
+
+[node name="WorldComplete34" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1639.28, 946.623 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete34"]
+
+[node name="WorldComplete35" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1774.57, 946.623 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete35"]
+
+[node name="WorldComplete36" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 1908.18, 949.963 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete36"]
+
+[node name="WorldComplete37" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2045.14, 949.963 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete37"]
+
+[node name="WorldComplete38" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2180.42, 953.304 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete38"]
+
+[node name="WorldComplete39" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2310.7, 954.974 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete39"]
+
+[node name="WorldComplete40" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2579.6, 961.654 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete40"]
+
+[node name="WorldComplete41" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2450.99, 954.974 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete41"]
+
+[node name="WorldComplete42" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2713.21, 963.325 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete42"]
+
+[node name="WorldComplete43" parent="undermap" instance=ExtResource( 1 )]
+editor/display_folded = true
+visible = false
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 2841.81, 964.995 )
+next_world = "res://World.tscn"
+
+[node name="Sprite" type="Sprite" parent="undermap/WorldComplete43"]
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( 184.343, 170.345 )
+scale = Vector2( 0.751912, 0.59593 )
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 524330, 0, 0, 524331, 1, 0, 524332, 1, 0, 524333, 1, 0, 524334, 2, 0, 589857, 0, 0, 589858, 1, 0, 589859, 1, 0, 589860, 1, 0, 589861, 2, 0, 589866, 6, 0, 589867, 5, 0, 589868, 5, 0, 589869, 5, 0, 589870, 4, 0, 655393, 7, 0, 655394, 8, 0, 655395, 8, 0, 655396, 8, 0, 655397, 3, 0, 720929, 6, 0, 720930, 5, 0, 720931, 5, 0, 720932, 5, 0, 720933, 4, 0, 720958, 0, 0, 720959, 1, 0, 720960, 1, 0, 720961, 1, 0, 720962, 1, 0, 720963, 2, 0, 786457, 0, 0, 786458, 1, 0, 786459, 1, 0, 786460, 1, 0, 786461, 2, 0, 786482, 0, 0, 786483, 1, 0, 786484, 1, 0, 786485, 1, 0, 786486, 1, 0, 786487, 2, 0, 786494, 6, 0, 786495, 5, 0, 786496, 5, 0, 786497, 5, 0, 786498, 5, 0, 786499, 4, 0, 851990, 0, 0, 851991, 1, 0, 851992, 1, 0, 851993, 8, 0, 851994, 8, 0, 851995, 8, 0, 851996, 8, 0, 851997, 3, 0, 852018, 6, 0, 852019, 5, 0, 852020, 5, 0, 852021, 5, 0, 852022, 5, 0, 852023, 4, 0, 917507, 0, 0, 917508, 1, 0, 917509, 1, 0, 917510, 1, 0, 917511, 1, 0, 917512, 1, 0, 917513, 1, 0, 917514, 1, 0, 917515, 1, 0, 917516, 1, 0, 917517, 1, 0, 917518, 1, 0, 917519, 1, 0, 917520, 1, 0, 917521, 1, 0, 917522, 1, 0, 917523, 1, 0, 917524, 1, 0, 917525, 1, 0, 917526, 8, 0, 917527, 8, 0, 917528, 8, 0, 917529, 8, 0, 917530, 8, 0, 917531, 8, 0, 917532, 8, 0, 917533, 3, 0, 983043, 7, 0, 983044, 8, 0, 983045, 8, 0, 983046, 8, 0, 983047, 8, 0, 983048, 8, 0, 983049, 8, 0, 983050, 8, 0, 983051, 8, 0, 983052, 8, 0, 983053, 8, 0, 983054, 8, 0, 983055, 8, 0, 983056, 8, 0, 983057, 8, 0, 983058, 8, 0, 983059, 8, 0, 983060, 8, 0, 983061, 8, 0, 983062, 8, 0, 983063, 8, 0, 983064, 8, 0, 983065, 8, 0, 983066, 8, 0, 983067, 8, 0, 983068, 8, 0, 983069, 3, 0, 1048579, 7, 0, 1048580, 8, 0, 1048581, 8, 0, 1048582, 8, 0, 1048583, 8, 0, 1048584, 8, 0, 1048585, 8, 0, 1048586, 8, 0, 1048587, 8, 0, 1048588, 8, 0, 1048589, 8, 0, 1048590, 8, 0, 1048591, 8, 0, 1048592, 8, 0, 1048593, 8, 0, 1048594, 8, 0, 1048595, 8, 0, 1048596, 8, 0, 1048597, 8, 0, 1048598, 8, 0, 1048599, 8, 0, 1048600, 8, 0, 1048601, 8, 0, 1048602, 8, 0, 1048603, 8, 0, 1048604, 8, 0, 1048605, 3, 0, 1114115, 6, 0, 1114116, 8, 0, 1114117, 8, 0, 1114118, 8, 0, 1114119, 8, 0, 1114120, 8, 0, 1114121, 8, 0, 1114122, 8, 0, 1114123, 8, 0, 1114124, 8, 0, 1114125, 8, 0, 1114126, 8, 0, 1114127, 8, 0, 1114128, 8, 0, 1114129, 8, 0, 1114130, 8, 0, 1114131, 8, 0, 1114132, 8, 0, 1114133, 8, 0, 1114134, 8, 0, 1114135, 8, 0, 1114136, 8, 0, 1114137, 8, 0, 1114138, 8, 0, 1114139, 8, 0, 1114140, 8, 0, 1114141, 4, 0, 1179652, 6, 0, 1179653, 5, 0, 1179654, 8, 0, 1179655, 8, 0, 1179656, 8, 0, 1179657, 8, 0, 1179658, 8, 0, 1179659, 8, 0, 1179660, 8, 0, 1179661, 8, 0, 1179662, 8, 0, 1179663, 8, 0, 1179664, 8, 0, 1179665, 8, 0, 1179666, 8, 0, 1179667, 8, 0, 1179668, 8, 0, 1179669, 8, 0, 1179670, 8, 0, 1179671, 8, 0, 1179672, 8, 0, 1179673, 8, 0, 1179674, 5, 0, 1179675, 5, 0, 1179676, 4, 0, 1245190, 6, 0, 1245191, 5, 0, 1245192, 5, 0, 1245193, 8, 0, 1245194, 8, 0, 1245195, 8, 0, 1245196, 8, 0, 1245197, 8, 0, 1245198, 8, 0, 1245199, 8, 0, 1245200, 8, 0, 1245201, 8, 0, 1245202, 8, 0, 1245203, 8, 0, 1245204, 8, 0, 1245205, 5, 0, 1245206, 5, 0, 1245207, 5, 0, 1245208, 5, 0, 1245209, 4, 0, 1310729, 6, 0, 1310730, 5, 0, 1310731, 5, 0, 1310732, 5, 0, 1310733, 5, 0, 1310734, 5, 0, 1310735, 5, 0, 1310736, 5, 0, 1310737, 5, 0, 1310738, 5, 0, 1310739, 5, 0, 1310740, 4, 0 )
+
+[node name="WorldComplete" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1839.94, 392.173 )
+scale = Vector2( 0.6, 0.6 )
+next_world = "res://World2.tscn"
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Sky" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( -1.19209e-007, 0 )
+scale = Vector2( 1.19294, 0.833409 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 595.788, 417.894 )
+
+[node name="Player" parent="." instance=ExtResource( 5 )]
+position = Vector2( 374.851, 400.336 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+drag_margin_h_enabled = false
+drag_margin_v_enabled = false

@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=1]
+[ext_resource path="res://EnemyBody2D.gd" type="Script" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 33.4354, 85.4698 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Enemy" index="0" instance=ExtResource( 1 )]
+position = Vector2( 131.347, 302.299 )
+scale = Vector2( 0.5, 0.5 )
+next_world = "res://World.tscn"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." index="0"]
+position = Vector2( 337.014, -133.114 )
+scale = Vector2( 1.9, 0.9 )
+shape = SubResource( 1 )
+
+[node name="EnemyBody2D" type="KinematicBody2D" parent="." index="1"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="EnemyBody2D" index="0"]
+frames = SubResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyBody2D" index="1"]
+position = Vector2( 337.014, -133.114 )
+scale = Vector2( 1.9, 0.9 )
+shape = SubResource( 1 )
+
+[node name="icon" parent="." index="3"]
+texture = ExtResource( 3 )
